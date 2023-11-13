@@ -34,4 +34,21 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #e02323;
+
+    .icons a{
+    text-decoration: none;
+    color: #e6683b;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #e6683b;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+} 
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
 }
