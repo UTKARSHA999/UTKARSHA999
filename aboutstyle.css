@@ -1,0 +1,37 @@
+/* Basic styling for the header and navigation */
+header {
+    background-color: #ffffff;
+    color: #067e70;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* h4.centered {
+    text-align: center;
+} */
+h4.boxed {
+    border: 2px solid #bb0b0b; /* Adjust size and color as needed */
+    padding: 10px; /* Adjust spacing inside the box */
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed for your design */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e02323;
+}
